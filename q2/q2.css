@@ -1,0 +1,24 @@
+.container {
+  font-size: 14px;
+}
+.container .header {
+  font-size: 18px;
+}
+.container .shop-list {
+  list-style: none;
+  margin-left: -15px;
+}
+.container .shop-list li.item {
+  color: green;
+}
+.container .shop-list .item {
+  /* Explain why does this color not works, and how to fix make it work on 
+   1st list */
+  /* read q2.md */
+  color: blue;
+}
+
+/* Write styling make every other line give background color to next one */
+.container .shop-list li:nth-child(even) {
+  background-color: rgb(228, 240, 220);
+}
